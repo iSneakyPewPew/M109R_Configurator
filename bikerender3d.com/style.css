@@ -1,0 +1,72 @@
+  body {
+    background-color: #000000;
+    display: table;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  #viewer {
+    margin: 0 auto;
+    background-color: #000000;
+    width: 1280px;
+    height: 720px;
+    border: 1px solid #000000;
+  }
+
+  #ui {
+  margin: 0 auto;
+  gap:2px;
+  z-index: 10;
+  max-width: 100%;
+  border: 1px solid #555555;
+  border-radius: 0 0 10px 10px;
+  }
+    
+  header {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  div > button {
+  color: #ffffff;
+  }
+
+  button.active {
+    background-color: rgba(13, 192, 28, 0.3);
+  }
+
+  #showBadgesStock, #showStickers_Fender, #showStickers_Rear {
+   background-color: #294546;
+    box-shadow: inset 0 0 10px rgba(1, 255, 43, 0.5);
+  }
+
+
+  #GripsDashTach, #Body, #Exhaust, #Seats, #Lights, #Mirrors, #Decals {
+    flex:1;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #bodyColorPicker {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    height: 60px;
+  }
